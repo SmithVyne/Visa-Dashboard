@@ -1,8 +1,39 @@
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+
+body {
+    background: #e6edf3;
+}
+
 #header {
     display: flex;
-    height: 110px;
+    height: 200px;
+    width: 120%;
 }
 
 #header > * {
-    height: 100;
+    height: 100%;
+    width: fit-content;
+}
+
+#user {
+    width: 100px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 0.5px solid rgb(175, 175, 175);
+    height: 100%;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title  {
+    height: 50%;
 }

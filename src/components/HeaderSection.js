@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-export default function HeaderSection({section}) {
+export default function HeaderSection({name, documents}) {
     return (
-        <div>
-            <div></div>
-            <div>
-                
+        <div className="section cell">
+            <div className="section-title cell">{name}</div>
+            <div className="section-body cell">
+                {documents.map(({id, name, uuid}) => 
+                    <span className="cell" key={uuid}>
+                        {`${name} (${id})`}
+                    </span>
+                )}
             </div>
         </div>
     )

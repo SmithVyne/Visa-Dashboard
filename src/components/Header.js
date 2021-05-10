@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import HeaderSection from './HeaderSection';
 
 export default function Header({header}) {
     return (
         <div id="header">
-            <span>User</span>
+            <div className="cell" id="user">User</div>
+            {header.map(({uuid, name, visa_template_documents}) => 
+                <HeaderSection key={uuid} name={name} documents={visa_template_documents} />
+            )}
         </div>
     )
 }
