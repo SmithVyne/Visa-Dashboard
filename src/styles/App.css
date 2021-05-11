@@ -28,7 +28,7 @@ body {
 }
 
 #user {
-    width: 100px;
+    width: 120px;
 }
 
 .cell {
@@ -64,4 +64,21 @@ body {
 
 .company-title {
     margin-left: 10px;
+}
+
+.employees {
+    flex-direction: column;
+}
+
+.employee {
+    width: 100%;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 0.5px solid rgb(255, 255, 255);
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Company from './Company';
 
 export default function Companies({companies}) {
-    const [clicked, setClicked] = useState();
+    const [clicked, setClicked] = useState([]);
 
     return (
         <div>
