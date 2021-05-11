@@ -1,0 +1,388 @@
+{
+  "data": [
+    {
+      "id": 287,
+      "name": "Mustafa",
+      "email": "no-reply1222223@connectresources.ae",
+      "documents": [
+      ],
+      "profile": {
+        "id": 266,
+        "name": "Mustafa",
+        "user_id": 287,
+        "city": null,
+        "birth_date": null,
+        "birth_country": "PE",
+        "email": "no-reply1222223@connectresources.ae",
+        "phone": null,
+        "address": null,
+        "visa_expiration": null,
+        "avatar": null
+      }
+    },
+    {
+      "id": 289,
+      "name": "Yves",
+      "email": "no-reply122222223@connectresources.ae",
+      "documents": [
+      ],
+      "profile": {
+        "id": 268,
+        "name": "Yves",
+        "user_id": 289,
+        "city": null,
+        "birth_date": null,
+        "birth_country": "PE",
+        "email": "no-reply122222223@connectresources.ae",
+        "phone": null,
+        "address": null,
+        "visa_expiration": null,
+        "avatar": null
+      }
+    },
+    {
+      "id": 472,
+      "name": "Ambuja",
+      "email": "no_email2021@connectresources.ae",
+      "documents": [
+        {
+          "id": 5626,
+          "is_required": true,
+          "status": "approved",
+          "remaining_time": -523,
+          "available_time": 24,
+          "order": 1,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4480,
+            "name": "Passport.pdf",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cfeb9a92eb.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-01-24T04:59:37.000000Z"
+          },
+          "document_reference": null,
+          "document_template": null,
+          "visa_template_document": {
+            "id": 33,
+            "name": "Passport ID",
+            "description": "Scan copy of Passport ID page",
+            "is_active": 1,
+            "is_required": true,
+            "order": 1,
+            "available_time": 24,
+            "fk_multimedia_document_reference_id": 70,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-01-24T04:59:22.000000Z",
+          "status_at": "2021-01-24 08:59:42"
+        },
+        {
+          "id": 5633,
+          "is_required": true,
+          "status": "approved",
+          "remaining_time": -523,
+          "available_time": 24,
+          "order": 1,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4489,
+            "name": "Signed Relative offer contract - Ambuja.pdf",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cfff613fee.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-01-24T05:04:54.000000Z"
+          },
+          "document_reference": {
+            "id": 4488,
+            "name": "Relative offer contract_Ambuja Hedge.jpg",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cfff121f3a.jpg",
+            "thumbnail": "https://api.connectresources.ae/storage/uploads/2021/01/thumb_600cfff121f3a.jpg",
+            "type": "image/jpeg",
+            "code": "public",
+            "created_at": "2021-01-24T05:04:49.000000Z"
+          },
+          "document_template": {
+            "id": 4487,
+            "name": "Relative offer contract_Ambuja Hedge.pdf",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cffe4b0947.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-01-24T05:04:36.000000Z"
+          },
+          "visa_template_document": {
+            "id": 40,
+            "name": "MOHRE offer letter",
+            "description": "Please download the document attached, sign and add your thumbprint inside the box (if mentioned in the last page)",
+            "is_active": 1,
+            "is_required": true,
+            "order": 1,
+            "available_time": 24,
+            "fk_multimedia_document_reference_id": null,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-01-24T05:04:03.000000Z",
+          "status_at": "2021-01-24 09:04:58"
+        },
+        {
+          "id": 5627,
+          "is_required": false,
+          "status": "approved",
+          "remaining_time": -523,
+          "available_time": 24,
+          "order": 2,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4481,
+            "name": "Ambuja - EID.pdf",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cfec605e43.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-01-24T04:59:50.000000Z"
+          },
+          "document_reference": null,
+          "document_template": null,
+          "visa_template_document": {
+            "id": 34,
+            "name": "Emirates ID",
+            "description": "Do you have already an Emirates ID? If it is the case, please upload both side scan",
+            "is_active": 1,
+            "is_required": false,
+            "order": 2,
+            "available_time": 24,
+            "fk_multimedia_document_reference_id": 71,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-01-24T04:59:22.000000Z",
+          "status_at": "2021-01-24 08:59:53"
+        },
+        {
+          "id": 6078,
+          "is_required": true,
+          "status": "approved",
+          "remaining_time": -331,
+          "available_time": 24,
+          "order": 2,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4949,
+            "name": "signed final relative labor contract - Ambuja.pdf",
+            "description": "",
+            "source": "https://storage.example.com/files/60178e7e77191.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-02-01T05:15:42.000000Z"
+          },
+          "document_reference": {
+            "id": 4951,
+            "name": "Relative labor contract_Ambuja.jpg",
+            "description": "",
+            "source": "https://storage.example.com/files/60178ea15408a.jpg",
+            "thumbnail": "https://storage.example.com/files/thumb_60178ea15408a.jpg",
+            "type": "image/jpeg",
+            "code": "public",
+            "created_at": "2021-02-01T05:16:17.000000Z"
+          },
+          "document_template": {
+            "id": 4950,
+            "name": "Relative labor contract_Ambuja.pdf",
+            "description": "",
+            "source": "https://storage.example.com/files/60178e975a389.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-02-01T05:16:07.000000Z"
+          },
+          "visa_template_document": {
+            "id": 45,
+            "name": "Labor contract",
+            "description": "Kindly download the document attached and sign it in the last page.",
+            "is_active": 1,
+            "is_required": true,
+            "order": 2,
+            "available_time": 24,
+            "fk_multimedia_document_reference_id": null,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-02-01T05:15:00.000000Z",
+          "status_at": "2021-02-01 09:16:35"
+        },
+        {
+          "id": 5628,
+          "is_required": true,
+          "status": "approved",
+          "remaining_time": -523,
+          "available_time": 24,
+          "order": 3,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4482,
+            "name": "visa.jpg",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cfee825988.jpg",
+            "thumbnail": "https://api.connectresources.ae/storage/uploads/2021/01/thumb_600cfee825988.jpg",
+            "type": "image/jpeg",
+            "code": "public",
+            "created_at": "2021-01-24T05:00:24.000000Z"
+          },
+          "document_reference": null,
+          "document_template": null,
+          "visa_template_document": {
+            "id": 35,
+            "name": "Entry Visa / UAE Visa",
+            "description": "Scan copy of your entry/tourist or employment visa. Pleas scan full page Visa (passport/document)",
+            "is_active": 1,
+            "is_required": true,
+            "order": 3,
+            "available_time": 24,
+            "fk_multimedia_document_reference_id": 72,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-01-24T04:59:22.000000Z",
+          "status_at": "2021-01-24 09:00:28"
+        },
+        {
+          "id": 5629,
+          "is_required": true,
+          "status": "approved",
+          "remaining_time": -523,
+          "available_time": 24,
+          "order": 4,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4483,
+            "name": "photo.pdf",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cfef6b3b7f.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-01-24T05:00:38.000000Z"
+          },
+          "document_reference": null,
+          "document_template": null,
+          "visa_template_document": {
+            "id": 36,
+            "name": "ID Photo",
+            "description": "Scan copy of a ID photo (white background required)",
+            "is_active": 1,
+            "is_required": true,
+            "order": 4,
+            "available_time": 24,
+            "fk_multimedia_document_reference_id": 73,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-01-24T04:59:22.000000Z",
+          "status_at": "2021-01-24 09:00:42"
+        },
+        {
+          "id": 6086,
+          "is_required": true,
+          "status": "approved",
+          "remaining_time": null,
+          "available_time": 0,
+          "order": 4,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4952,
+            "name": "Ambuja.jpeg",
+            "description": "",
+            "source": "https://storage.example.com/files/60178ecaf2216.jpeg",
+            "thumbnail": "https://storage.example.com/files/thumb_60178ecaf2216.jpeg",
+            "type": "image/jpeg",
+            "code": "public",
+            "created_at": "2021-02-01T05:16:59.000000Z"
+          },
+          "document_reference": null,
+          "document_template": null,
+          "visa_template_document": {
+            "id": 53,
+            "name": "Labor card",
+            "description": "You do not have to do anything. We are uploading your Insurance Card for your reference.",
+            "is_active": 1,
+            "is_required": false,
+            "order": 4,
+            "available_time": 0,
+            "fk_multimedia_document_reference_id": null,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-02-01T05:16:33.000000Z",
+          "status_at": "2021-02-01 09:17:08"
+        },
+        {
+          "id": 5630,
+          "is_required": true,
+          "status": "approved",
+          "remaining_time": -523,
+          "available_time": 24,
+          "order": 5,
+          "fk_visa_template_documents_types_id": null,
+          "document": {
+            "id": 4484,
+            "name": "educational certificate.pdf",
+            "description": "",
+            "source": "https://api.connectresources.ae/storage/uploads/2021/01/600cff09bd59f.pdf",
+            "thumbnail": "https://api.connectresources.ae/storage/default.png",
+            "type": "application/pdf",
+            "code": "public",
+            "created_at": "2021-01-24T05:00:57.000000Z"
+          },
+          "document_reference": null,
+          "document_template": null,
+          "visa_template_document": {
+            "id": 37,
+            "name": "Attested Degree (MOFA)",
+            "description": "Scan copy of your legalized degree by MOFA UAE. Scan all the pages of your legalized degree",
+            "is_active": 1,
+            "is_required": false,
+            "order": 5,
+            "available_time": 24,
+            "fk_multimedia_document_reference_id": 74,
+            "fk_multimedia_document_template_id": null
+          },
+          "created_at": "2021-01-24T04:59:22.000000Z",
+          "status_at": "2021-01-24 09:01:05"
+        }
+      ],
+      "profile": {
+        "id": 406,
+        "name": "Ambuja",
+        "user_id": 472,
+        "city": null,
+        "birth_date": null,
+        "birth_country": "PE",
+        "email": "no_email2021@connectresources.ae",
+        "phone": null,
+        "address": null,
+        "visa_expiration": "2022-03-03 00:00:00",
+        "avatar": {
+          "id": 5488,
+          "name": "phot.PNG",
+          "description": "",
+          "source": "https://storage.example.com/files/602211735f4db.PNG",
+          "thumbnail": "https://storage.example.com/files/thumb_602211735f4db.PNG",
+          "type": "image/png",
+          "code": "avatar"
+        }
+      }
+    }
+  ],
+  "status": {
+    "http_status": 200,
+    "code": "success",
+    "msg": "Petición correcta",
+    "details": null,
+    "errors": [
+    ]
+  }
+}
