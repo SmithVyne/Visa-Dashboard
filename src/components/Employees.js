@@ -4,7 +4,7 @@ import {employeesContext} from './App';
 
 export default function Employees() {
     
-    const employees = useContext(employeesContext);
+    const {employees} = useContext(employeesContext);
     
     return (
         <table >
