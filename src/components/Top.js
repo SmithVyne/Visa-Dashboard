@@ -5,7 +5,11 @@ export default function Top() {
         <section id="top">
             <h1><span>VISA</span> DASHBOARD</h1>
 
-            <input />
+            <div id="filter">
+                <select>
+                </select>
+                <input />
+            </div>
         </section>
     )
 }

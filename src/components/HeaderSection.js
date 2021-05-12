@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function HeaderSection({name, documents}) {
     return (
-        <div className="section cell">
-            <div className="section-title cell">{name}</div>
-            <div className="section-body cell">
+        <div className="header-section">
+            <div className="header-section-title">{name}</div>
+            <div className="header-section-body">
                 {documents.map(({id, name, uuid}) => 
                     <span className="cell" key={uuid}>
                         {`${name} (${id})`}

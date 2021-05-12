@@ -12,9 +12,11 @@ export default function Documents({documents}) {
             {headerIds.map(id => {
                     let documentId = documentsIds.findIndex(idn => idn === id)
                     if(documentId === -1) {
-                        return <td>Not Assigned</td>
+                        return <span className="cell">Not assigned</span>
                     } else {                        
-                        return <td>{documents[documentId].visa_template_document.name}</td>
+                        return <span className="cell">
+                            {documents[documentId].visa_template_document.name}
+                        </span>
                     }
                 }
             )}

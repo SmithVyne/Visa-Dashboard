@@ -7,15 +7,15 @@ export default function Employees() {
     const {employees} = useContext(employeesContext);
     
     return (
-        <table >
+        <div className="employees">
             {employees.map(({name, documents}) => 
-                <tr>
-                    <td id="user">
+                <div className="employee">
+                    <span className="cell">
                         {name}
-                    </td>
+                    </span>
                     <Documents documents={documents} />
-                </tr>
+                </div>
             )}
-        </table>
+        </div>
     )
 }
