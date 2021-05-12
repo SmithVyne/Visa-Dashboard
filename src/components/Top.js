@@ -7,8 +7,14 @@ export default function Top() {
 
             <div id="filter">
                 <select>
+                    <option disabled>
+                        Select Company
+                    </option>
                 </select>
-                <input />
+                <span id="top-left">
+                    <input placeholder="Filter by employee" />
+                    <i class="fas fa-search"></i>
+                </span>
             </div>
         </section>
     )

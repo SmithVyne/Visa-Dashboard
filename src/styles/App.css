@@ -32,11 +32,31 @@ main, #top {
     height: 25px;
     padding: 0;
     border: 1px solid grey;
+    padding-left: 5px;
+}
+
+#top .fa-search {
+    background: white;
+    height: 25px;
+    width: 25px;
+    border: 1px solid grey;
+    color: grey;
+}
+
+#top .fa-search:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#top-left, #top .fa-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #filter {
     display: flex;
-    width: 520px;
+    width: 550px;
     justify-content: space-between;
     margin-top: 8px;
 }

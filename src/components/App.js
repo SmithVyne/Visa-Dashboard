@@ -1,8 +1,8 @@
 import React, {useEffect, useState, createContext} from 'react';
 import '../styles/App.css';
-import Header from './Header';
-import Body from './Companies';
 import Top from './Top';
+import Header from './Header';
+import Companies from './Companies';
 import {findHeadersIds} from '../utils';
 
 export const employeesContext = createContext({});
@@ -12,7 +12,6 @@ function App() {
   const [companies, setCompanies] = useState([]);
   const [employees, setEmployees] = useState([]);
   const headerIds = findHeadersIds(header);
-  // console.log(headerIds)
   
   useEffect(() => {
      fetch('./api/headers.json')
@@ -35,7 +34,7 @@ function App() {
       <employeesContext.Provider value={{employees, headerIds}}>
         <main>
           <Header header={header} />
-          <Body companies={companies} />
+          <Companies companies={companies} />
         </main>
       </employeesContext.Provider>
     </>
