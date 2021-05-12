@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import Documents from './Documents';
 import {employeesContext} from './App';
+import Employee from './Employee';
 
 export default function Employees() {
     
@@ -9,12 +9,7 @@ export default function Employees() {
     return (
         <div className="employees">
             {employees.map(({name, documents}) => 
-                <div className="employee">
-                    <span className="cell name">
-                        {name}
-                    </span>
-                    <Documents documents={documents} />
-                </div>
+                <Employee name={name} documents={documents} />
             )}
         </div>
     )
