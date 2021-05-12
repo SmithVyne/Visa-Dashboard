@@ -2,6 +2,7 @@ import React, {useEffect, useState, createContext} from 'react';
 import '../styles/App.css';
 import Header from './Header';
 import Body from './Companies';
+import Top from './Top';
 import {findHeadersIds} from '../utils';
 
 export const employeesContext = createContext({});
@@ -29,12 +30,15 @@ function App() {
   }, [])
   
   return (
-    <employeesContext.Provider value={{employees, headerIds}}>
-      <main>
-        <Header header={header} />
-        <Body companies={companies} />
-      </main>
-    </employeesContext.Provider>
+    <>
+      <Top />
+      <employeesContext.Provider value={{employees, headerIds}}>
+        <main>
+          <Header header={header} />
+          <Body companies={companies} />
+        </main>
+      </employeesContext.Provider>
+    </>
   );
 }
 

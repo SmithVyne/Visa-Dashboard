@@ -1,18 +1,26 @@
 @import url('https://necolas.github.io/normalize.css/latest/normalize.css');
-@font-face {
-    font-family: "FontAwesome";
-    src: url(../fonts/fontawesome-webfont.woff2);
-}
 
-.arrow {
-    font-family: "FontAwesome";
-}
-
-body {
+body, #root {
     background: #e6edf3;
-    width: 120%;
+    width: 100%;
     font-family: sans-serif;
     font-size: 13px;
+}
+
+main, #top {
+    width: 100%;
+    padding: 15px;
+}
+
+#top h1 {
+    margin: 0;
+    font-weight: 300;
+    color: grey;
+}
+
+#top span {
+    font-weight: bold;
+    color: black;
 }
 
 #header {
@@ -36,7 +44,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    border: 0.5px solid rgb(255, 255, 255);
+    border: 0.5px solid grey;
     height: 100%;
     width: 100%;
 }
@@ -50,11 +58,16 @@ body {
     height: 50%;
 }
 
+#companies {
+    width: 100%;
+}
+
 .company {
-    justify-content: start;
     padding: 10px 0 10px 20px;
     color: #6d97d1;
     font-weight: bold;
+    max-width: 100%;
+    border: 0.5px solid grey;
 }
 
 .company:hover {
@@ -80,5 +93,5 @@ table {
 }
 
 td {
-    border: 0.5px solid rgb(255, 255, 255);
+    border: 0.5px solid grey;
 }

@@ -13,7 +13,7 @@ export default function Companies({companies}) {
     };
 
     return (
-        <div>
+        <div id="companies">
             {companies.map(({name, id}) => 
                 <Company id={id} name={name} clicked={clicked} handleClick={() => handleClick(id)} key={id} />
             )}

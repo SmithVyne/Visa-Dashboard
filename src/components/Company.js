@@ -5,7 +5,7 @@ export default function Company({clicked, handleClick, id, name}) {
     
     return (
         <>
-            <div onClick={handleClick} className="cell company">
+            <div onClick={handleClick} className="company">
                 <i className={clicked.includes(id) ? 'fas fa-chevron-circle-down' : 'fas fa-chevron-circle-right'}></i>
                 <span className="company-title">{name}</span>
             </div>
