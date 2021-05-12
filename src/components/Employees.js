@@ -10,7 +10,7 @@ export default function Employees() {
         <div className="employees">
             {employees.map(({name, documents}) => 
                 <div className="employee">
-                    <span className="cell">
+                    <span className="cell name">
                         {name}
                     </span>
                     <Documents documents={documents} />

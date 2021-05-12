@@ -12,7 +12,7 @@ function App() {
   const [companies, setCompanies] = useState([]);
   const [employees, setEmployees] = useState([]);
   const headerIds = findHeadersIds(header);
-  console.log(headerIds)
+  // console.log(headerIds)
   
   useEffect(() => {
      fetch('./api/headers.json')

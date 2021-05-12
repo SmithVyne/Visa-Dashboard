@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import {employeesContext} from './App';
 import {findDocumentsIds} from '../utils';
+import Document from './Document';
 
 
 export default function Documents({documents}) {
@@ -14,9 +15,7 @@ export default function Documents({documents}) {
                     if(documentId === -1) {
                         return <span className="cell">Not assigned</span>
                     } else {                        
-                        return <span className="cell">
-                            {documents[documentId].visa_template_document.name}
-                        </span>
+                        return <Document document={documents[documentId]} />
                     }
                 }
             )}
